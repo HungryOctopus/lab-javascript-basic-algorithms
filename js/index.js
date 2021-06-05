@@ -22,9 +22,13 @@ else {
 
 // Iteration 3: Loops
 
+let hacker1UpperCase = hacker1.toUpperCase();
+
+console.log(hacker1UpperCase);
+
 for (let i = 0; i < hacker1.length; i++) {
 
-  console.log(hacker1[i]);
+  console.log(hacker1UpperCase[i]);
 }
 
 // I don't know how to do it and will check it again later
